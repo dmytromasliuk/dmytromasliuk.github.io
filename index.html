@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+        <title>HOME</title>
+    </head>
+    <body>
+
+        <!--Navigation-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="nav_img" src="img/owl_logo.png" alt="" width="75px" height="75px">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">ABOUT ME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--First board-->
+        <div id="slides" class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/background.jpg">
+                    <div class="carousel-caption">
+                        <h1 class="display-2">Owl's Wall</h1>
+                        <button type="button" class="btn btn-outline-light btn-lg" onclick="goToPortfolio()">Get Wallpaper</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--Welcome-->
+        <div class="container-fluid padding" id="welcome">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4">Welcome!</h1>
+                </div>
+                <hr>
+                <div class="col-12">
+                    <p class="lead">Do you like owls? Check my portfolio and find wallpapers with owls, what you want.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--About-->
+        <div class="container-fluid padding" id="about">
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <img src="img/photo.jpg" class="img-fluid rounded-top mx-3 d-none d-lg-block" alt="">
+                </div>
+                <div class="col-xs-2 col-sm-10 col-md-10 col-lg-5">
+                    <h2>I'm Dmytro Masliuk</h2>
+                    <p>Student, Programmer... and Gamer</h6>
+                    <p>This is my little web-project - wallpapers website. Now, I'm student of first year.</p>
+                    <p>I have not many hobbies, and one of them it's observing birds. Sometimes you can be really surprised,
+                        what they're interesting and smart creatures.</p>
+                    <p>My favorite birds are owl and ravens. They inspire me to create this web-site. But here you can find only owls.</p>
+                    <p>Maybe once ravens will come here, maybe even today :)</p>
+                    <br>
+                </div>
+                
+            </div>
+        </div>
+        <!--Connect-->
+        <div class="container-fluid padding" id="contact">
+            <div class="row text-center" id="contact-block">
+                <div class="col-12">
+                    <h2 class="display-4">Contact</h3>
+                </div>
+            </div>
+            <div class="row justify-content-around align-items-center">
+                <div class="col-3 text-center">
+                    <hr class="hr-light">
+                    <p>Name: Dmytro Masliuk</p>
+                    <hr class="hr-light">
+                    <p>Tel: +48-888-888-888</p>
+                    <hr class="hr-light">
+                    <p>E-mail: dmasliuk.x@gmail.com</p>
+                    <hr class="hr-light">
+                </div>
+                <div class="col-3">
+                    <p>You can send mail from here:</p>
+                    <form action="mailto:dmasliuk.x@gmail.com?subject=subject" id="contact-form" method="post"> 
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="email" placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="email-text" rows="3">Message...</textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="form-control submit" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container-fluid padding" id="footer">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>

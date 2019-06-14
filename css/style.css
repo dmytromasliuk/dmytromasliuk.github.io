@@ -70,6 +70,44 @@ body{
 }
 
 #footer{
-    height: 50px;
+    height: 70px;
     background: #494949;
+}
+
+#footer p{
+    margin-top: 10px;
+    height: 10px;
+}
+
+#blog {
+    margin-top: 100px;
+}
+
+#blog-row{
+    margin-bottom: 50px;
+}
+
+.single-blog
+{
+    background-color: #eff7fc !important;
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.2);
+    padding: 10px;
+}
+
+.single-blog span{
+    float: right;
+    font-size: 12px;
+    color: cornflowerblue;
+}
+
+.blog-text
+{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.single-blog h3{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #225463;
 }

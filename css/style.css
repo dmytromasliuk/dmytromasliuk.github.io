@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #e6d9c7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery{
+    margin: 10px 50px;
+}
+
+.gallery h5{
+    margin-top: 10px;
+}
+
+.gallery img{
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.gallery img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.01);
+}
+
+.carousel-caption h1{
+    color: #518b96;
+}
+
+#welcome{
+    margin-top: 50px;
+    font-size: 17pt;
+}
+
+#welcome p{
+    font-size: 17pt;
+}
+
+#about{
+    margin-top: -100px;
+    padding-top: 150px;
+    font-size: 17pt;
+}
+
+#contact{
+    height: 550px;
+    margin-top: 50px;
+    background: #b8c2c4;
+    color: #494949;
+}
+
+#contact h2{
+    margin-top: 50px;
+}
+
+#contact p{
+    font-size: 17pt;
+}
+
+#contact hr {
+    border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+    border-style: solid none;
+    border-width: 1px 0;
+    margin: 18px 0;
+}
+
+#contact-block{
+    height: 150px;
+}
+
+#footer{
+    height: 70px;
+    background: #494949;
+}
+
+#footer p{
+    margin-top: 10px;
+    height: 10px;
+}
+
+#blog {
+    margin-top: 100px;
+}
+
+#blog-row{
+    margin-bottom: 50px;
+}
+
+.single-blog
+{
+    background-color: #eff7fc !important;
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.2);
+    padding: 10px;
+}
+
+.single-blog span{
+    float: right;
+    font-size: 12px;
+    color: cornflowerblue;
+}
+
+.blog-text
+{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.single-blog h3{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #225463;
+}
